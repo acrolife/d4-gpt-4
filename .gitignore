@@ -1,0 +1,12 @@
+
+
+# API keys
+.streamlit/
+
+# Virtual environment
+qazi-gpt-streamlit_venv/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
