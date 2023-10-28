@@ -6,7 +6,10 @@ st.title("D4 🦾 ChatGPT 4 🤙🏾")
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-4"
+    st.session_state["openai_model"] = "gpt-3.5-turbo"
+
+# "gpt-4"
+# InvalidRequestError: The model `gpt-4` does not exist or you do not have access to it. Learn more: https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4.
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
